@@ -9,6 +9,7 @@
     --main-background: #E5E5E5; /*Основной цвет фона*/
     --secondary-background: #F5F4FA; /*Вторичный цвет фона*/
     --footer-background: rgba(47, 48, 58, 1); /*Фон футера и Героя*/
+    --btn-background: rgba(245, 244, 250, 1); /*Цвет кнопки*/
     --header-background: rgba(255, 255, 255, 1); /*Фон Header*/
 }
 
@@ -80,8 +81,26 @@
 .team {
     background-color: var(--secondary-background);
 }
+.cards {
+    background-color: var(--brand-white-color);
+}
 
 /* -------------------стр Портфолио*/
+.bgc {
+    background-color: var(--main-background);
+}
+/* ------------------СЕКЦИЯ ФИЛЬТР-------------------------- */
+.btn {
+    color: var(--secondary-color);
+    background-color: var(--btn-background);
+}
+.btn:hover, .btn:focus {
+    color: var(--brand-white-color);
+    background-color: var(--accent-color);
+}
+
+/* ------------------СЕКЦИЯ КАРТОЧКИ -------------------------*/
+
 
 
 /* --------------------ПОДВАЛ (FOOTER)--------------------- */
