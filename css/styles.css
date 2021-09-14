@@ -1,0 +1,97 @@
+                /* ПОЛИТРА ЦВЕТОВ */
+:root {
+    --main-color: #757575; /*Основной цвет текста - цвет абзаца*/
+    --secondary-color: #212121; /*Вторичный цвет текста - цвет заголовков*/
+    --accent-color: #2196F3; /*Акцент - цвет ссылок*/
+    --brand-white-color: #FFFFFF; /*Основной белый цвет логотип, футер, герой*/
+    --logo-black-color: rgba(0, 0, 0, 1); /*Цвет логотипа в шапке*/
+    --mail-footer-color: rgba(255, 255, 255, 0.6); /*Цвет почты футера*/
+    --main-background: #E5E5E5; /*Основной цвет фона*/
+    --secondary-background: #F5F4FA; /*Вторичный цвет фона*/
+    --footer-background: rgba(47, 48, 58, 1); /*Фон футера и Героя*/
+    --header-background: rgba(255, 255, 255, 1); /*Фон Header*/
+}
+
+                /* ОБЩИЕ КЛАССЫ СЕКЦИЙ */
+.body {                /*Цвет текста параграфов в секциях*/
+    color: var(--main-color);
+}
+.section_title {      /*Цвет заголовков текста в секциях (кроме Героя)*/
+    color: var(--secondary-color);
+}
+.list-none {           /*Убираем маркировку списка*/
+    list-style: none; 
+}
+.link-none {          /*Убираем дикорирование ссылок*/
+    text-decoration: none;
+}
+
+
+                /* ШАПКА (HEADER) */
+.header {
+    background-color: var(--header-background);
+}
+/* Логотип */
+.logo-blue {
+    color: var(--accent-color);
+}
+.logo-black {
+    color: var(--logo-black-color);
+}
+/* Навигация */
+.link-nav {
+    color: var(--secondary-color);
+}
+.link-mail {
+    color: var(--main-color);
+}
+.link-nav:hover, .link-nav:focus, .link-mail:hover, .link-mail:focus {
+    color: var(--accent-color);
+}
+
+                /* ГЕРОЙ */
+.hero {
+    background-color: var(--footer-background);
+}
+.hero-title {
+    color: var(--brand-white-color);h
+}
+.button {
+    color: var(--brand-white-color);
+    background-color: var(--accent-color);
+}
+
+                /* СЕКЦИЯ ОСОБЕННОСТИ */
+.features {
+    background-color: var(--main-background);
+}
+
+                /* СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ */
+.work {
+    background-color: var(--main-background);
+}
+
+                /* СЕКЦИЯ НАША КОМАНДА */
+.team {
+    background-color: var(--secondary-background);
+}
+
+                /* ПОДВАЛ (FOOTER) */
+/* Логотип */
+.footer {
+    background-color: var(--footer-background);
+}
+.logo-white {
+    color: var(--brand-white-color);
+}
+.link-adress {
+    color: var(--brand-white-color);
+}
+.link-contacts {
+    color: var(--mail-footer-color);
+}
+.link-adress:hover, .link-adress:focus, .link-contacts:hover, .link-contacts:focus {
+    color: var(--accent-color);
+}
+
+
