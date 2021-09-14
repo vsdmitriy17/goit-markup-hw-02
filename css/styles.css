@@ -12,7 +12,7 @@
     --header-background: rgba(255, 255, 255, 1); /*Фон Header*/
 }
 
-                /* ОБЩИЕ КЛАССЫ СЕКЦИЙ */
+/* ----------------ОБЩИЕ КЛАССЫ СЕКЦИЙ------------------ */
 .body {                /*Цвет текста параграфов в секциях*/
     color: var(--main-color);
 }
@@ -27,7 +27,7 @@
 }
 
 
-                /* ШАПКА (HEADER) */
+/* -----------------ШАПКА (HEADER)-------------------- */
 .header {
     background-color: var(--header-background);
 }
@@ -42,6 +42,9 @@
 .link-nav {
     color: var(--secondary-color);
 }
+.link-nav.current {
+    color: var(--accent-color);
+}
 .link-mail {
     color: var(--main-color);
 }
@@ -49,34 +52,39 @@
     color: var(--accent-color);
 }
 
-                /* ГЕРОЙ */
+/* ------------------стр Студия*/
+
+/* -------------------ГЕРОЙ------------------------------ */
 .hero {
     background-color: var(--footer-background);
 }
 .hero-title {
-    color: var(--brand-white-color);h
+    color: var(--brand-white-color);
 }
 .button {
     color: var(--brand-white-color);
     background-color: var(--accent-color);
 }
 
-                /* СЕКЦИЯ ОСОБЕННОСТИ */
+/* ------------------СЕКЦИЯ ОСОБЕННОСТИ-------------------- */
 .features {
     background-color: var(--main-background);
 }
 
-                /* СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ */
+/* ----------------СЕКЦИЯ ЧЕМ МЫ ЗАНИМАЕМСЯ ----------------*/
 .work {
     background-color: var(--main-background);
 }
 
-                /* СЕКЦИЯ НАША КОМАНДА */
+/* ------------------СЕКЦИЯ НАША КОМАНДА -------------------*/
 .team {
     background-color: var(--secondary-background);
 }
 
-                /* ПОДВАЛ (FOOTER) */
+/* -------------------стр Портфолио*/
+
+
+/* --------------------ПОДВАЛ (FOOTER)--------------------- */
 /* Логотип */
 .footer {
     background-color: var(--footer-background);
